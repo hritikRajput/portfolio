@@ -1,0 +1,33 @@
+.header{
+    padding: 1rem 6rem;
+    background: #ffffffe6;
+    border-bottom: 1px solid #e5e7eb;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-item{
+    color: rgb(75, 85, 99);
+    padding: 0.75rem 1rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    cursor: pointer;
+}
+
+.logo{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: rgb(17, 34, 39);
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+}

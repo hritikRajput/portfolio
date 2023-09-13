@@ -1,0 +1,46 @@
+.hero {
+  margin: 0 auto;
+  margin-top: -6rem;
+}
+.hero-section {
+  height: 100vh;
+  max-width: 72rem;
+  margin: 0 auto;
+}
+.hero-content {
+  padding: 7rem 0;
+  margin: auto;
+  text-align: center;
+}
+.hero-image {
+  width: 144px;
+  height: 144px;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+.hero-content p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: rgb(75, 85, 99);
+}
+
+.animated-heading {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background-image: linear-gradient(to right, #3b82f6, #ec4899);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: backgroundAnimation 4s ease infinite;
+  background-size: 400%;
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
